@@ -35,7 +35,7 @@ namespace WpfApplication1.ViewModel
 				OnPropertyChanged(nameof(SampleText));
 
 				// ボタンの無効表示に影響するので、CanExecuteChanged イベントを発行する
-				Button?.RaiseCanExecuteChanged();
+				Button?.OnCanExecuteChanged();
 
 				// ラベルの値も連動させる
 				SampleLabel = value;

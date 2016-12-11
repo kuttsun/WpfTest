@@ -19,7 +19,7 @@ namespace WpfApplication1.ViewModel.Command
 		private Action<object> execute;
 
 		/// <summary>
-		/// CanExecute の実態を保持します。
+		/// CanExecute の実体を保持します。
 		/// </summary>
 		private Func<object, bool> canExecute;
 
@@ -42,7 +42,7 @@ namespace WpfApplication1.ViewModel.Command
 		/// <summary>
 		/// CanExecuteChangedイベントを発行する
 		/// </summary>
-		public void RaiseCanExecuteChanged()
+		public void OnCanExecuteChanged()
 		{
 			CanExecuteChanged?.Invoke(this, EventArgs.Empty);
 		}
