@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication1", "WpfAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivetWPFApplication1", "LivetWPFApplication1\LivetWPFApplication1.csproj", "{CB3D9104-8270-4E48-9513-D44F7F76C50E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MahAppsMetro", "MahAppsMetro\MahAppsMetro.csproj", "{3AEE5838-58F0-417C-9AF8-D906E6875E4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,14 @@ Global
 		{CB3D9104-8270-4E48-9513-D44F7F76C50E}.Release|Any CPU.ActiveCfg = Release|x86
 		{CB3D9104-8270-4E48-9513-D44F7F76C50E}.Release|x86.ActiveCfg = Release|x86
 		{CB3D9104-8270-4E48-9513-D44F7F76C50E}.Release|x86.Build.0 = Release|x86
+		{3AEE5838-58F0-417C-9AF8-D906E6875E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AEE5838-58F0-417C-9AF8-D906E6875E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AEE5838-58F0-417C-9AF8-D906E6875E4D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3AEE5838-58F0-417C-9AF8-D906E6875E4D}.Debug|x86.Build.0 = Debug|Any CPU
+		{3AEE5838-58F0-417C-9AF8-D906E6875E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AEE5838-58F0-417C-9AF8-D906E6875E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AEE5838-58F0-417C-9AF8-D906E6875E4D}.Release|x86.ActiveCfg = Release|Any CPU
+		{3AEE5838-58F0-417C-9AF8-D906E6875E4D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
