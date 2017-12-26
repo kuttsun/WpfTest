@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MahAppsMetro", "MahAppsMetr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialDesign", "MaterialDesign\MaterialDesign.csproj", "{E622C326-D2D3-443C-AC1E-3B1261E2B8DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenTransition", "ScreenTransition\ScreenTransition.csproj", "{1987B556-6392-45D7-B5F2-B3DEB32176BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,14 @@ Global
 		{E622C326-D2D3-443C-AC1E-3B1261E2B8DA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E622C326-D2D3-443C-AC1E-3B1261E2B8DA}.Release|x86.ActiveCfg = Release|Any CPU
 		{E622C326-D2D3-443C-AC1E-3B1261E2B8DA}.Release|x86.Build.0 = Release|Any CPU
+		{1987B556-6392-45D7-B5F2-B3DEB32176BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1987B556-6392-45D7-B5F2-B3DEB32176BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1987B556-6392-45D7-B5F2-B3DEB32176BD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1987B556-6392-45D7-B5F2-B3DEB32176BD}.Debug|x86.Build.0 = Debug|Any CPU
+		{1987B556-6392-45D7-B5F2-B3DEB32176BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1987B556-6392-45D7-B5F2-B3DEB32176BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1987B556-6392-45D7-B5F2-B3DEB32176BD}.Release|x86.ActiveCfg = Release|Any CPU
+		{1987B556-6392-45D7-B5F2-B3DEB32176BD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
