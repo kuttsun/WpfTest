@@ -13,19 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-using ScreenTransition.ViewModels;
-
 namespace ScreenTransition.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Page1.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Page1 : UserControl
     {
-        public MainWindow()
+        public Page1()
         {
-            InitializeComponent();
-            //DataContext = new MainWindowViewModel();
+            //InitializeComponent();
         }
     }
 }

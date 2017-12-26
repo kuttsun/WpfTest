@@ -1,0 +1,9 @@
+﻿<UserControl x:Class="ScreenTransition.Views.Page2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:localvm="clr-namespace:ScreenTransition.ViewModels"
+        xmlns:localview="clr-namespace:ScreenTransition.Views"  Background="Blue">
+    <StackPanel>
+        <Label Content="Page2"/>
+    </StackPanel>
+</UserControl>

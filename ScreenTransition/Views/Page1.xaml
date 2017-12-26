@@ -1,0 +1,10 @@
+﻿<UserControl x:Class="ScreenTransition.Views.Page1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:localvm="clr-namespace:ScreenTransition.ViewModels"
+        xmlns:localview="clr-namespace:ScreenTransition.Views" Background="Red">
+    <StackPanel>
+        <Label Content="Page1"/>
+        <TextBox Text="{Binding AText}" Width="150"/>
+    </StackPanel>
+</UserControl>
