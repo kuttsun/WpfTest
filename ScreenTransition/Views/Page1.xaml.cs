@@ -22,7 +22,7 @@ namespace ScreenTransition.Views
     {
         public Page1()
         {
-            //InitializeComponent();
+            InitializeComponent();
         }
     }
 }

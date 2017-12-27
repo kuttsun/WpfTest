@@ -25,7 +25,6 @@ namespace ScreenTransition.Views
         public MainWindow()
         {
             InitializeComponent();
-            //DataContext = new MainWindowViewModel();
         }
     }
 }

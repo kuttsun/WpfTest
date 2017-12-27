@@ -26,9 +26,7 @@ namespace ScreenTransition.ViewModels
             {
                 if (_CurrentPage != value)
                 {
-                    _CurrentPage = value;
-                    RaisePropertyChanged(nameof(CurrentPage));
-                    //SetProperty(ref _CurrentPage, value);
+                    SetProperty(ref _CurrentPage, value);
                 }
             }
         }
@@ -41,8 +39,7 @@ namespace ScreenTransition.ViewModels
             {
                 if (_Page1 != value)
                 {
-                    _Page1 = value;
-                    RaisePropertyChanged(nameof(Page1));
+                    SetProperty(ref _Page1, value);
                 }
             }
         }
@@ -55,8 +52,7 @@ namespace ScreenTransition.ViewModels
             {
                 if (_Page2 != value)
                 {
-                    _Page2 = value;
-                    RaisePropertyChanged(nameof(Page2));
+                    SetProperty(ref _Page2, value);
                 }
             }
         }
