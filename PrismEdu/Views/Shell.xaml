@@ -9,6 +9,6 @@
         mc:Ignorable="d"
         Title="Shell" Height="300" Width="300">
     <Grid>
-        <TextBlock Text="{Binding MessageProvider.Message}" />
+        <ContentControl prism:RegionManager.RegionName="MainRegion" />
     </Grid>
 </Window>

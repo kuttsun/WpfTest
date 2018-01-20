@@ -8,6 +8,7 @@ using PrismEdu.Views;
 using Microsoft.Practices.Unity;
 using Prism.Unity;
 using System.Windows;
+using Prism.Modularity;
 
 namespace PrismEdu
 {
@@ -24,6 +25,14 @@ namespace PrismEdu
         {
             // Shellを表示する
             ((Window)this.Shell).Show();
+        }
+
+        protected override void ConfigureModuleCatalog()
+        {
+            base.ConfigureModuleCatalog();
+
+            var catalog = (ModuleCatalog)this.ModuleCatalog;
+            catalog.AddModule(typeof(PrismModule.HelloWorldModule));
         }
     }
 }
