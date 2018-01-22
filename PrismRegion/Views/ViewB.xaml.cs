@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PrismRegion
+namespace PrismRegion.Views
 {
     /// <summary>
-    /// MainWindow.xaml の相互作用ロジック
+    /// ViewB.xaml の相互作用ロジック
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ViewB : UserControl
     {
-        public MainWindow()
+        public ViewB()
         {
             InitializeComponent();
         }
